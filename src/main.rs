@@ -157,8 +157,8 @@ fn anakin(board: &mut Vec<Vec<usize>>, size: usize, difficulty: usize) {
     }
 
     while eraser > 0 {
-        let mut x = rand::thread_rng().gen_range(0..size);
-        let mut y = rand::thread_rng().gen_range(0..size);
+        let x = rand::thread_rng().gen_range(0..size);
+        let y = rand::thread_rng().gen_range(0..size);
         if board[x][y] != 0 {
             board[x][y] = 0;
             eraser -= 1;
