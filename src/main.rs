@@ -9,25 +9,31 @@ use rand::thread_rng;
 use std::thread;
 use std::time::Duration;
 use std::env;
+use std::fs::File;
+use std::io::Write;
+use std::time::Instant;
 
 //print!("\x1B[2J\x1B[H"); // ChatGPT :)
-fn sudoku_string(board: &Vec<Vec<usize>>) {
+fn sudoku_string(board: &Vec<Vec<usize>>) -> String {
+    let mut output = String::new();
     for row in board {
         for value in row {
             if (*value as i32) == 0 {
-                print!(".");
+                output.push_str(".");
             } else {
-                print!("{}", value);
+                output.push_str(&format!("{}", value));
             }
         }
     }
-    println!("\n");
+    return output;
 }
-fn print_sudoku_board(board: &Vec<Vec<usize>>, size: usize) {
+fn print_sudoku_board(board: &Vec<Vec<usize>>, size: usize, melatonin: i32) {
     let sqrt_size = (size as f32).sqrt() as usize;
     let mut output = String::new();
 
-    print!("\x1B[2J\x1B[H"); // ChatGPT :)
+    if melatonin > -1 {
+        print!("\x1B[2J\x1B[H"); // ChatGPT :)
+    }
 
     for (i, row) in board.iter().enumerate() {
         if i % sqrt_size == 0 && i != 0 {
@@ -101,6 +107,79 @@ fn find_available_positions(
     return available_positions;
 }
 
+fn get_next(board: &Vec<Vec<usize>>, size: usize) -> (usize, usize, Vec<usize>) {
+    let mut smallest_space = usize::MAX;
+    let mut best_x: usize = 0;
+    let mut best_y: usize = 0;
+    let mut best_available_positions = Vec::new();
+
+    for x in 0..size {
+        for y in 0..size {
+            if board[x][y] == 0 {
+                let available_positions = find_available_positions(board, size, x, y);
+                if available_positions.len() < smallest_space {
+                    smallest_space = available_positions.len();
+                    best_x = x;
+                    best_y = y;
+                    best_available_positions = available_positions;
+                }
+            }
+        }
+    }
+
+    (best_x, best_y, best_available_positions)
+}
+
+/*
+fn sudoku_solver(
+    board: &mut Vec<Vec<usize>>,
+    size: usize,
+    melatonin: i32
+) -> bool {
+    // check to see if there are blank spaces
+    let mut is_full = true;
+    for row in &*board {
+        for &value in row {
+            if value == 0 {
+                is_full = false;
+                break;
+            }
+        }
+    }
+
+    if is_full {
+        return true;  // we are done
+    }
+
+    // Use get_next to find the cell with the least number of possible values
+    let (x, y, mut available_positions) = get_next(board, size);
+    available_positions.shuffle(&mut thread_rng());
+
+    // Melatonin Factor (show each step)
+    if melatonin > -1 {
+        if melatonin > 0 {
+            let sleep_duration = Duration::from_millis(melatonin as u64);
+            thread::sleep(sleep_duration);
+        }
+        print_sudoku_board(board, size, melatonin);
+    }
+
+    // Attempt to fill the chosen cell with one of the possible values
+    for &value in &available_positions {
+        if is_valid(board, size, x, y, value) {
+            board[x][y] = value;
+            if sudoku_solver(board, size, melatonin) {
+                return true;
+            }
+            board[x][y] = 0;  // Reset cell and backtrack
+        }
+    }
+
+    return false;
+}
+*/
+
+
 fn sudoku_solver(
     board: &mut Vec<Vec<usize>>,
     size: usize,
@@ -131,7 +210,7 @@ fn sudoku_solver(
             let sleep_duration = Duration::from_millis(melatonin as u64);
             thread::sleep(sleep_duration);
         }
-        print_sudoku_board(board, size);
+        print_sudoku_board(board, size, melatonin);
     }
 
     let mut rng = thread_rng();
@@ -162,29 +241,44 @@ fn sudoku_solver(
             let sleep_duration = Duration::from_millis(melatonin as u64);
             thread::sleep(sleep_duration);
         }
-        print_sudoku_board(board, size);
+        print_sudoku_board(board, size, melatonin);
     }
 
     return false;
 }
+
 
 fn collect_sudoku_solutions(
     board: &mut Vec<Vec<usize>>,
     size: usize,
     x: usize,
     y: usize,
-    solutions: &mut Vec<Vec<Vec<usize>>>
+    solutions: &mut usize,
+    melatonin: i32
 ) {
     if x == size {
-        solutions.push(board.clone());
+        *solutions += 1;
         return;
+    }
+
+    if *solutions > 1 {
+        return;
+    }
+
+    // Melatonin Factor (show each step)
+    if melatonin > -1 {
+        if melatonin > 0 {
+            let sleep_duration = Duration::from_millis(melatonin as u64);
+            thread::sleep(sleep_duration);
+        }
+        print_sudoku_board(board, size, melatonin);
     }
 
     if board[x][y] != 0 {
         if y == size - 1 {
-            collect_sudoku_solutions(board, size, x + 1, 0, solutions);
+            collect_sudoku_solutions(board, size, x + 1, 0, solutions, melatonin);
         } else {
-            collect_sudoku_solutions(board, size, x, y + 1, solutions);
+            collect_sudoku_solutions(board, size, x, y + 1, solutions, melatonin);
         }
         return;
     }
@@ -198,23 +292,33 @@ fn collect_sudoku_solutions(
     for &value in &available_positions {
         board[x][y] = value as usize;
         if y == size - 1 {
-            collect_sudoku_solutions(board, size, x + 1, 0, solutions);
+            collect_sudoku_solutions(board, size, x + 1, 0, solutions, melatonin);
         } else {
-            collect_sudoku_solutions(board, size, x, y + 1, solutions);
+            collect_sudoku_solutions(board, size, x, y + 1, solutions, melatonin);
         }
     }
 
     // If no position is available, backtrack
     board[x][y] = 0;
+
+    // Melatonin Factor (show each step)
+    if melatonin > -1 {
+        if melatonin > 0 {
+            let sleep_duration = Duration::from_millis(melatonin as u64);
+            thread::sleep(sleep_duration);
+        }
+        print_sudoku_board(board, size, melatonin);
+    }
 }
 
-fn sudoku_unique(board: &mut Vec<Vec<usize>>, size: usize) -> bool {
-    let mut solutions = vec![];
-    collect_sudoku_solutions(board, size, 0, 0, &mut solutions);
-    return solutions.len() == 1;
+fn sudoku_unique(board: &mut Vec<Vec<usize>>, size: usize, melatonin: i32) -> bool {
+    let mut solutions = 0;
+    collect_sudoku_solutions(board, size, 0, 0, &mut solutions, melatonin);
+    // println!("{}", solutions);
+    return solutions == 1;
 }
 
-fn generate_unique(board: &mut Vec<Vec<usize>>, size: usize, difficulty: usize) {
+fn generate_unique(board: &mut Vec<Vec<usize>>, size: usize, difficulty: usize, melatonin: i32) {
     let mut eraser: i32 = (difficulty * size) as i32;
     if eraser > ((size * size) as i32) {
         eraser = (size * size) as i32;
@@ -237,11 +341,11 @@ fn generate_unique(board: &mut Vec<Vec<usize>>, size: usize, difficulty: usize) 
     not_visited.shuffle(&mut thread_rng());
 
     while eraser > 0 {
-        //println!("{}", not_visited.len());
+        // println!("{}", eraser);
         if not_visited.len() > 0 {
             let temp = board[not_visited[0][0]][not_visited[0][1]];
             board[not_visited[0][0]][not_visited[0][1]] = 0;
-            if !sudoku_unique(board, size) {
+            if !sudoku_unique(board, size, melatonin) {
                 board[not_visited[0][0]][not_visited[0][1]] = temp;
                 not_visited.drain(0..1);
             } else {
@@ -284,6 +388,8 @@ fn anakin(board: &mut Vec<Vec<usize>>, size: usize, difficulty: usize) {
 }
 
 fn main() {
+    let mut results = String::new();
+
     let args: Vec<_> = env::args().collect(); // StackOverflow (various posts to turn cli input into a variable)
 
     let size = if args.len() > 1 {
@@ -302,7 +408,7 @@ fn main() {
         match args[2].parse() {
             Ok(m) => m,
             Err(_) => {
-                eprintln!("Invalid difficulty argument. Using default difficulty: 2");
+                eprintln!("Invalid difficulty argument. Using default difficulty: 5");
                 2
             }
         }
@@ -322,15 +428,41 @@ fn main() {
         -1
     };
 
-    let mut board = vec![vec![0; size]; size];
+    for _ in 1..=100 {
+        let mut board = vec![vec![0; size]; size];
+        let mut board_string: String;
 
-    sudoku_solver(&mut board, size, 0, 0, melatonin);
-    print_sudoku_board(&board, size);
+        let generator_start_time = Instant::now();
+        sudoku_solver(&mut board, size, 0, 0, melatonin);
+        let generator_elapsed_time = generator_start_time.elapsed().as_micros();
 
-    anakin(&mut board, size, difficulty);
-    print_sudoku_board(&board, size);
-    sudoku_string(&board);
+        print_sudoku_board(&board, size, melatonin);
 
-    sudoku_solver(&mut board, size, 0, 0, melatonin);
-    print_sudoku_board(&board, size);
+        let unique_start_time = Instant::now();
+        if size <= 9 {
+            generate_unique(&mut board, size, difficulty, melatonin);
+        }
+        else {
+            anakin(&mut board, size, difficulty);
+        }
+        let unique_elapsed_time = unique_start_time.elapsed().as_micros();
+        
+        board_string = sudoku_string(&board);
+        print_sudoku_board(&board, size, melatonin);
+        //sudoku_string(&board);
+
+        let solver_start_time = Instant::now();
+        sudoku_solver(&mut board, size, 0, 0, melatonin);
+        let solver_elapsed_time = solver_start_time.elapsed().as_micros();
+        print_sudoku_board(&board, size, melatonin);
+
+        // Append the results to the respective strings
+        //results.push_str(&format!("CLI: {}, {}, {}, Generator Time: {} microseconds, Unique Time: {} microseconds, Solver Time: {} microseconds\n", size, difficulty, melatonin, generator_elapsed_time, unique_elapsed_time, solver_elapsed_time));
+        //results.push_str(&format!("Board: {} \n\n", board_string));
+        results.push_str(&format!("{}\n", solver_elapsed_time));
+    }
+
+    // Save merge sort results to a file
+    let mut stats_file = File::create("sudoku_times_4_4_old.txt").expect("Unable to create merge sort file");
+    write!(stats_file, "{}", results).expect("Unable to write to merge sort file");
 }

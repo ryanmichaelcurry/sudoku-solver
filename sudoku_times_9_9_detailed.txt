@@ -1,0 +1,300 @@
+CLI: 9, 9, -1, Generator Time: 1573 microseconds, Unique Time: 439741 microseconds, Solver Time: 955 microseconds
+Board: ....2...1.69...582..5.........9.2...9...8...5..3.5..6.....713...4.....983..5..4.. 
+
+CLI: 9, 9, -1, Generator Time: 2776 microseconds, Unique Time: 23374 microseconds, Solver Time: 763 microseconds
+Board: ...1...8....6.37...9...5..3.8.279..5.45....72..9........8..7.1..5...2..6......... 
+
+CLI: 9, 9, -1, Generator Time: 2315 microseconds, Unique Time: 235446 microseconds, Solver Time: 593 microseconds
+Board: 2..9.4..8.........1.....72.6258.9...8......9...364.....6.2....7....6.85.7.....43. 
+
+CLI: 9, 9, -1, Generator Time: 1641 microseconds, Unique Time: 319632 microseconds, Solver Time: 6500 microseconds
+Board: .3.8.....8.1..5...7.5.9.8..5.36..........1.8...85..4.9.....67.....9...3.65.2...1. 
+
+CLI: 9, 9, -1, Generator Time: 1543 microseconds, Unique Time: 739027 microseconds, Solver Time: 3396 microseconds
+Board: 28..19.....6..7....7....95....2....8.........7.....413...4.1.7.....8..926.2...... 
+
+CLI: 9, 9, -1, Generator Time: 1681 microseconds, Unique Time: 763466 microseconds, Solver Time: 24953 microseconds
+Board: ..4....5..587.......756..8....94..........31..7...34...4.3....26......98.2...1... 
+
+CLI: 9, 9, -1, Generator Time: 1546 microseconds, Unique Time: 14921 microseconds, Solver Time: 818 microseconds
+Board: ....8..351.......6..2.45....7.3..9...857.....4........2...3.........7.287....1... 
+
+CLI: 9, 9, -1, Generator Time: 1531 microseconds, Unique Time: 95631 microseconds, Solver Time: 1727 microseconds
+Board: 4376...2...257...1....2....124....8....2...43.....8....1.......76....83...98.6..2 
+
+CLI: 9, 9, -1, Generator Time: 1462 microseconds, Unique Time: 360766 microseconds, Solver Time: 17403 microseconds
+Board: .8..16.....9...2.1.2.3.........29...6.3.8.5..........4..2.57......16..3..7......6 
+
+CLI: 9, 9, -1, Generator Time: 1592 microseconds, Unique Time: 155858 microseconds, Solver Time: 1330 microseconds
+Board: .5...462..9..82.....8.....5..4..1.....2...7.....7..98........574..1.....5.1..62.. 
+
+CLI: 9, 9, -1, Generator Time: 1465 microseconds, Unique Time: 1131341 microseconds, Solver Time: 590 microseconds
+Board: .....83.9..........1...3..57.....1...5........3..89..2.9..54..3...2..7..54..7.6.. 
+
+CLI: 9, 9, -1, Generator Time: 1589 microseconds, Unique Time: 33109 microseconds, Solver Time: 5695 microseconds
+Board: 82..7..9......6...6..91..7....4..6..3.58..41..6.....5..4..5..6.18..........1..24. 
+
+CLI: 9, 9, -1, Generator Time: 1433 microseconds, Unique Time: 1022686 microseconds, Solver Time: 1374 microseconds
+Board: ..2......976....3..5.....4.2..1......3862.....6.4.3......54731...7.9..248........ 
+
+CLI: 9, 9, -1, Generator Time: 1894 microseconds, Unique Time: 856733 microseconds, Solver Time: 8558 microseconds
+Board: 5.....3..1...5......796.5......1.....6.8.3.5...9...2.8.......17...7..4.......2..9 
+
+CLI: 9, 9, -1, Generator Time: 1467 microseconds, Unique Time: 76412 microseconds, Solver Time: 2481 microseconds
+Board: .....7.3.1...8....6.25....9.....96..7.4.......9...8.5.........347..61..85....4.7. 
+
+CLI: 9, 9, -1, Generator Time: 1425 microseconds, Unique Time: 151681 microseconds, Solver Time: 2889 microseconds
+Board: 1..2..5.6..7........3.9...8...7..84...56.....91...4..54...7.2.1..2......6......5. 
+
+CLI: 9, 9, -1, Generator Time: 1492 microseconds, Unique Time: 559294 microseconds, Solver Time: 2740 microseconds
+Board: ...1..9....3....5.9.6.....1....798.....51.2....5..2.9331..4.....6.2.7...8...6..7. 
+
+CLI: 9, 9, -1, Generator Time: 1456 microseconds, Unique Time: 338443 microseconds, Solver Time: 643 microseconds
+Board: .......1.......4..2..7.4.8.1.845...9..2..3...47..1...33945..2......8..7...6...... 
+
+CLI: 9, 9, -1, Generator Time: 1552 microseconds, Unique Time: 36822 microseconds, Solver Time: 5089 microseconds
+Board: 2.5..........4..569...7.2....9..672..2.38..4...........3.......5....3...6824.9.3. 
+
+CLI: 9, 9, -1, Generator Time: 2309 microseconds, Unique Time: 173363 microseconds, Solver Time: 845 microseconds
+Board: .9.2..4...7......535......21.4............538.......6......384....9.1.......56.27 
+
+CLI: 9, 9, -1, Generator Time: 1567 microseconds, Unique Time: 465866 microseconds, Solver Time: 1263 microseconds
+Board: 5.....1.8.3....4..7.........8.43..6.2..7.......3...21..2.5.6.8..6..43.....1.7..26 
+
+CLI: 9, 9, -1, Generator Time: 1568 microseconds, Unique Time: 47498 microseconds, Solver Time: 1379 microseconds
+Board: ......7.5..37........28..6..7..25..484..36.......7.83..1..4...3......98....91.... 
+
+CLI: 9, 9, -1, Generator Time: 1518 microseconds, Unique Time: 261883 microseconds, Solver Time: 10949 microseconds
+Board: 5......282....13..3.......6.....2.5...4.......9..1.8.....65.....159.7.3.....3.9.. 
+
+CLI: 9, 9, -1, Generator Time: 1672 microseconds, Unique Time: 91924 microseconds, Solver Time: 867 microseconds
+Board: .63..4..9..9.....4......3.7.3..5.96..5.1........72..58.1..8........91.3...6.....5 
+
+CLI: 9, 9, -1, Generator Time: 1660 microseconds, Unique Time: 941676 microseconds, Solver Time: 2422 microseconds
+Board: ....8.25.....6.......7...1.5.......99.831..6.....98..1.47..9.....3....8.16..7...4 
+
+CLI: 9, 9, -1, Generator Time: 1453 microseconds, Unique Time: 48810 microseconds, Solver Time: 5668 microseconds
+Board: .8..6....5....7....96..4.588.....9..9.3..5....4..3...6.5.......2....37....4.2...1 
+
+CLI: 9, 9, -1, Generator Time: 1515 microseconds, Unique Time: 91494 microseconds, Solver Time: 2609 microseconds
+Board: .....645.....5.....1.7...688.2..3.....49...81.......95.....2.....5.....7..7.8...4 
+
+CLI: 9, 9, -1, Generator Time: 1569 microseconds, Unique Time: 57303 microseconds, Solver Time: 1065 microseconds
+Board: ..1..9..4....2..8.86....1..3.8.57....5....87...........9........7.8.49626....3.5. 
+
+CLI: 9, 9, -1, Generator Time: 1798 microseconds, Unique Time: 110727 microseconds, Solver Time: 1783 microseconds
+Board: ..1.6.......7...3...93..87.......7...5.64..93.6.......67.5.4.8...............1..9 
+
+CLI: 9, 9, -1, Generator Time: 1613 microseconds, Unique Time: 82185 microseconds, Solver Time: 5379 microseconds
+Board: ....1.28.....5.6..72...........8.3646...91..8...7...1..74...5....5..9....19..6.7. 
+
+CLI: 9, 9, -1, Generator Time: 1527 microseconds, Unique Time: 1132598 microseconds, Solver Time: 2031 microseconds
+Board: ...3.18.........7.6.1........75...398.3..6...9.............891..1..43..8.5..9...7 
+
+CLI: 9, 9, -1, Generator Time: 1444 microseconds, Unique Time: 278103 microseconds, Solver Time: 2556 microseconds
+Board: ...6..94..1........8...2.1...8..749........2.9.2....63...5...7....9.458..6.2..... 
+
+CLI: 9, 9, -1, Generator Time: 1870 microseconds, Unique Time: 619076 microseconds, Solver Time: 4514 microseconds
+Board: ...3.....2....6..9..47...8.3......6..86..2...1...8.2..........3...8.54.1.67.4.... 
+
+CLI: 9, 9, -1, Generator Time: 1673 microseconds, Unique Time: 18867 microseconds, Solver Time: 1363 microseconds
+Board: .1....37...2.9......5.124..63....71...83...4........8..9..5.1...5............4..5 
+
+CLI: 9, 9, -1, Generator Time: 1538 microseconds, Unique Time: 98727 microseconds, Solver Time: 1899 microseconds
+Board: 3.2.....6....7....95..........7.6.15....9.....4.5.13..2...64..7.7...9.43.8....2.. 
+
+CLI: 9, 9, -1, Generator Time: 1605 microseconds, Unique Time: 87955 microseconds, Solver Time: 2047 microseconds
+Board: .5..3.....497....21.2..84.3.2..6...16.3...........3.7...4...6...9....2.5.......9. 
+
+CLI: 9, 9, -1, Generator Time: 2266 microseconds, Unique Time: 516812 microseconds, Solver Time: 15081 microseconds
+Board: 2..8....965..........7..5..9.....2...7..1.9.33.6....8...8....6.4...73.9....48...2 
+
+CLI: 9, 9, -1, Generator Time: 1630 microseconds, Unique Time: 75812 microseconds, Solver Time: 5928 microseconds
+Board: ..68.......9..71.....1..5.4.2..3.....95.7...13..9..7..........51....29..84..6.... 
+
+CLI: 9, 9, -1, Generator Time: 1694 microseconds, Unique Time: 171858 microseconds, Solver Time: 2492 microseconds
+Board: 5....8......9..1...63..5.878......1..1.8..9...9....4.....7...9...8..1.35....3.... 
+
+CLI: 9, 9, -1, Generator Time: 1949 microseconds, Unique Time: 9621343 microseconds, Solver Time: 5715 microseconds
+Board: ...........98..7...37...8.5...2...9..6...4..89..1.8.4..75...........128..4..2..76 
+
+CLI: 9, 9, -1, Generator Time: 1688 microseconds, Unique Time: 206623 microseconds, Solver Time: 2042 microseconds
+Board: ..7.29..........6..35.....265.........1357.9........8.3..64..5...621.94..4..9.... 
+
+CLI: 9, 9, -1, Generator Time: 1436 microseconds, Unique Time: 67966 microseconds, Solver Time: 4119 microseconds
+Board: 8...1...2.96..........98653...53........7.5....2.....8........113.......2..4...37 
+
+CLI: 9, 9, -1, Generator Time: 1463 microseconds, Unique Time: 84734 microseconds, Solver Time: 4440 microseconds
+Board: ...4..672.7.3.......2.6..19.9..721.......8.....8...9.42...8..63...........7.1.2.. 
+
+CLI: 9, 9, -1, Generator Time: 1467 microseconds, Unique Time: 497228 microseconds, Solver Time: 484 microseconds
+Board: ....94.3......3.25........631.4....8..6.....27.8....6.29.8.....83......1..1..5..4 
+
+CLI: 9, 9, -1, Generator Time: 1729 microseconds, Unique Time: 106263 microseconds, Solver Time: 3722 microseconds
+Board: 7.4.....16....3..2.1..6..7..2.93......9...14..8.........3.91........67..8..5...9. 
+
+CLI: 9, 9, -1, Generator Time: 2729 microseconds, Unique Time: 53509 microseconds, Solver Time: 2125 microseconds
+Board: ....2...9.5....3..84.....61..6.591...1..3.......4....32....6.355...7....36.1...2. 
+
+CLI: 9, 9, -1, Generator Time: 1601 microseconds, Unique Time: 17212 microseconds, Solver Time: 2140 microseconds
+Board: .8.59...41...869.........539.....4...1...4.8.4..7..21...5.27....9.......7..65.... 
+
+CLI: 9, 9, -1, Generator Time: 1733 microseconds, Unique Time: 519853 microseconds, Solver Time: 10139 microseconds
+Board: .3..8.6....8.62.9......31..1.....25........4...4..9..3.....5.....2...7..7..49...8 
+
+CLI: 9, 9, -1, Generator Time: 1564 microseconds, Unique Time: 26710 microseconds, Solver Time: 608 microseconds
+Board: 6..84.......7..34..2...1..6..9....2...893...4.6...8.........195.85........4.6.8.. 
+
+CLI: 9, 9, -1, Generator Time: 1627 microseconds, Unique Time: 51876 microseconds, Solver Time: 1959 microseconds
+Board: .7...9...3.......41...85...4...7...1....56...2.59.48......6.9....6..8..5..3...7.8 
+
+CLI: 9, 9, -1, Generator Time: 1570 microseconds, Unique Time: 41589 microseconds, Solver Time: 521 microseconds
+Board: .....7.....36...49.9..5...3547......2....4..1.......3....9.17..16...3....5.2..... 
+
+CLI: 9, 9, -1, Generator Time: 1554 microseconds, Unique Time: 320853 microseconds, Solver Time: 2760 microseconds
+Board: 2.9...7.5.3.....8....7...494......5...751..62..3..8........24.7...3...1..6....... 
+
+CLI: 9, 9, -1, Generator Time: 1483 microseconds, Unique Time: 80396 microseconds, Solver Time: 2066 microseconds
+Board: 72....13......74..1.9.........2.4.....8.....33.7..8.4.413..67.......26...6.1..... 
+
+CLI: 9, 9, -1, Generator Time: 1966 microseconds, Unique Time: 360302 microseconds, Solver Time: 546 microseconds
+Board: .....1...5.8...6...42..89.......92.6....72..5.......1..39........63...278...4.... 
+
+CLI: 9, 9, -1, Generator Time: 1755 microseconds, Unique Time: 32002 microseconds, Solver Time: 1869 microseconds
+Board: 7.....15.8.64....23....18.4..2.1....4.....9.......7.63.....6..8.4.5.......5....3. 
+
+CLI: 9, 9, -1, Generator Time: 1817 microseconds, Unique Time: 54042 microseconds, Solver Time: 13300 microseconds
+Board: ..71...6.....549....1.2.......7.3.1..78.....4....8...5..6..2.5.....3.1..3.9..6... 
+
+CLI: 9, 9, -1, Generator Time: 1493 microseconds, Unique Time: 405700 microseconds, Solver Time: 812 microseconds
+Board: 5....64...8...3.6...14..39....5....1.....2.76..61....9.1...7...85.........93...5. 
+
+CLI: 9, 9, -1, Generator Time: 1530 microseconds, Unique Time: 304194 microseconds, Solver Time: 635 microseconds
+Board: 3.........1......46..785............138...5.25.7198......63....7.6...4.....2.4... 
+
+CLI: 9, 9, -1, Generator Time: 1558 microseconds, Unique Time: 309046 microseconds, Solver Time: 2737 microseconds
+Board: ..2.9..4.6...8..31.1..52..7.........7..9...8..6...3..94.5.........81......72..4.8 
+
+CLI: 9, 9, -1, Generator Time: 1453 microseconds, Unique Time: 68317 microseconds, Solver Time: 2619 microseconds
+Board: 6..7.3...5...987..9.....31...547..2.........3...5..6....4.......98.1...4..635.8.. 
+
+CLI: 9, 9, -1, Generator Time: 1576 microseconds, Unique Time: 46727 microseconds, Solver Time: 2168 microseconds
+Board: 8...5....6...97.4.......18..4.....9...1.....83....5..6.5.2.19.......36.5.....4... 
+
+CLI: 9, 9, -1, Generator Time: 1519 microseconds, Unique Time: 225512 microseconds, Solver Time: 2794 microseconds
+Board: 1....9....42.1.6....3..2..4....5.17..........9..7.1.......4..83426.7.....3....... 
+
+CLI: 9, 9, -1, Generator Time: 1478 microseconds, Unique Time: 204034 microseconds, Solver Time: 4433 microseconds
+Board: ...7.........8...68..43..71.4.....32.76...9.....9..4....96.12....8...6..3........ 
+
+CLI: 9, 9, -1, Generator Time: 1443 microseconds, Unique Time: 136289 microseconds, Solver Time: 3688 microseconds
+Board: 2.....49...8..4...6......17..3..5.....63....19..6.8.........8.4....6.3...975...2. 
+
+CLI: 9, 9, -1, Generator Time: 1436 microseconds, Unique Time: 40433 microseconds, Solver Time: 1353 microseconds
+Board: ..6...5.....2.9.18...368.2..5...31..9......7.6....73.4....1...57.........8...5... 
+
+CLI: 9, 9, -1, Generator Time: 2454 microseconds, Unique Time: 45401 microseconds, Solver Time: 3813 microseconds
+Board: .....5.....71.....5243....8...79.4.....2....3.9....6.26...542..9.....51.....2.... 
+
+CLI: 9, 9, -1, Generator Time: 1644 microseconds, Unique Time: 226389 microseconds, Solver Time: 1396 microseconds
+Board: ...15.....3.....8.2.1..3.594..92.3...17.............9.1.9..5.2...8...7......34..6 
+
+CLI: 9, 9, -1, Generator Time: 1606 microseconds, Unique Time: 150703 microseconds, Solver Time: 1095 microseconds
+Board: ...42617....9....6..9....2...6...7.8.82.1......7....9....7...1.23....9....8.5...4 
+
+CLI: 9, 9, -1, Generator Time: 2429 microseconds, Unique Time: 21486 microseconds, Solver Time: 972 microseconds
+Board: 6.....4...34.8.5...9...1...1..2...4.7.5....6......8...58.9...36........1.....3... 
+
+CLI: 9, 9, -1, Generator Time: 2189 microseconds, Unique Time: 65963 microseconds, Solver Time: 2076 microseconds
+Board: .46.97..25.......7.1....36.6825.......1.......74.69........16......2673.........8 
+
+CLI: 9, 9, -1, Generator Time: 1489 microseconds, Unique Time: 106653 microseconds, Solver Time: 1262 microseconds
+Board: ..95.....56...84..37......9..3...5.4.2....1....12.7.6...4....7.9....53..6....1... 
+
+CLI: 9, 9, -1, Generator Time: 1438 microseconds, Unique Time: 214718 microseconds, Solver Time: 2518 microseconds
+Board: ..1..........4...7....86.4......2.9.1..3...5..23.9.8...7.2.4.....86....2.45....1. 
+
+CLI: 9, 9, -1, Generator Time: 1616 microseconds, Unique Time: 8704 microseconds, Solver Time: 872 microseconds
+Board: ......184.5.....9.46..7......312....5.......3..2.5.6.9...2........4..8.5..79..... 
+
+CLI: 9, 9, -1, Generator Time: 1663 microseconds, Unique Time: 56283 microseconds, Solver Time: 767 microseconds
+Board: ....5...9.31..9....5....8.....76...2..8132.6...58..1.7...6...45......2..4...1.... 
+
+CLI: 9, 9, -1, Generator Time: 1568 microseconds, Unique Time: 93099 microseconds, Solver Time: 1480 microseconds
+Board: ..3........4..2....913..6.8..58...4..1...47..3..629..5....6..9.......8.7...1..3.. 
+
+CLI: 9, 9, -1, Generator Time: 1747 microseconds, Unique Time: 473617 microseconds, Solver Time: 2900 microseconds
+Board: 82....6....7.......198.2.......2...1...3....54..987.....4..6.7.......96..3..95... 
+
+CLI: 9, 9, -1, Generator Time: 1667 microseconds, Unique Time: 20707 microseconds, Solver Time: 1047 microseconds
+Board: 1....5..6..9....8..32.........2.7..1.7.9..6..39...6......5..3..6..7..2..8.5.2.4.. 
+
+CLI: 9, 9, -1, Generator Time: 1647 microseconds, Unique Time: 82077 microseconds, Solver Time: 12804 microseconds
+Board: ......873.......2....6345...4..5...7.....2.3..1....9.8.328....64...6......8..1... 
+
+CLI: 9, 9, -1, Generator Time: 1445 microseconds, Unique Time: 39562 microseconds, Solver Time: 7653 microseconds
+Board: ..9137.4.5........16.5..9.8....1...2..59.2......3.5.8..72.6....8..............2.6 
+
+CLI: 9, 9, -1, Generator Time: 1472 microseconds, Unique Time: 839733 microseconds, Solver Time: 16178 microseconds
+Board: ....9.1..8..5.6.....7.......92...6....6.7.82.....1....4..3.7.1.......2..36...45.. 
+
+CLI: 9, 9, -1, Generator Time: 2385 microseconds, Unique Time: 351506 microseconds, Solver Time: 3698 microseconds
+Board: ...85..72.3....1.8....1.....8.2.....6....7.9.......265.47.3.......57..8.15....3.. 
+
+CLI: 9, 9, -1, Generator Time: 1469 microseconds, Unique Time: 77244 microseconds, Solver Time: 728 microseconds
+Board: 57......1............49152..1.....3.8......94..98....6..4....6..57.2....98..7.... 
+
+CLI: 9, 9, -1, Generator Time: 1564 microseconds, Unique Time: 141941 microseconds, Solver Time: 10207 microseconds
+Board: ...4.579.4............1..5...4..6...1.....672...79........2...391........5..681.. 
+
+CLI: 9, 9, -1, Generator Time: 1491 microseconds, Unique Time: 57268 microseconds, Solver Time: 955 microseconds
+Board: ..9715..2.......7.......8.64.3...58.5....4.9......21.....1.9...7.......5.42...... 
+
+CLI: 9, 9, -1, Generator Time: 1434 microseconds, Unique Time: 761700 microseconds, Solver Time: 9656 microseconds
+Board: .....2.......58...3.2.7.6..1...4..8...3.......4...5.7....4...698..6..41.7....92.. 
+
+CLI: 9, 9, -1, Generator Time: 1465 microseconds, Unique Time: 52664 microseconds, Solver Time: 3953 microseconds
+Board: ...8.4.61.7.....4...4.3.5.83..1.2.8..8.56..7............3.....59....6..2...9..8.. 
+
+CLI: 9, 9, -1, Generator Time: 1470 microseconds, Unique Time: 140392 microseconds, Solver Time: 4771 microseconds
+Board: 98.5.1........2..9...6.7..33.......1.......2.219...5.....2.8.17..6.4.......9..2.. 
+
+CLI: 9, 9, -1, Generator Time: 1584 microseconds, Unique Time: 56397 microseconds, Solver Time: 1015 microseconds
+Board: ..5...9....3...427.4..6.....2......9..8...51.5.492...8.....3...8..1.2...9..4.7.3. 
+
+CLI: 9, 9, -1, Generator Time: 1732 microseconds, Unique Time: 109904 microseconds, Solver Time: 745 microseconds
+Board: ...2.698..93.......48.1.3..7................6..9.785....57...2.3829........4...5. 
+
+CLI: 9, 9, -1, Generator Time: 1544 microseconds, Unique Time: 1145392 microseconds, Solver Time: 3130 microseconds
+Board: ..4....8.8..1.9..5521.....9...39..4........5.......6.1...76..9..7.2.8....4..1.52. 
+
+CLI: 9, 9, -1, Generator Time: 1453 microseconds, Unique Time: 220944 microseconds, Solver Time: 8048 microseconds
+Board: 6..3...4....48.........91...2.8....4.9...471.7......5..5..2..6....9.1..247..6.... 
+
+CLI: 9, 9, -1, Generator Time: 1522 microseconds, Unique Time: 98334 microseconds, Solver Time: 6896 microseconds
+Board: .9..48..3.......17....9.......4.9....2....7.45.1....6..3..26.8...75..2....6...... 
+
+CLI: 9, 9, -1, Generator Time: 1637 microseconds, Unique Time: 176178 microseconds, Solver Time: 1387 microseconds
+Board: ...2...6913.64.....7..3...1.1.......7........46..7.2..8....4..5....6......4.827.. 
+
+CLI: 9, 9, -1, Generator Time: 1570 microseconds, Unique Time: 283612 microseconds, Solver Time: 6947 microseconds
+Board: ....5743....3........4....81......73264.......5.6..9......831..61...2.4...9...... 
+
+CLI: 9, 9, -1, Generator Time: 1597 microseconds, Unique Time: 269962 microseconds, Solver Time: 2464 microseconds
+Board: ..345.1.........4.....218........21..35..496..8.......7..3..6....82...9...46...83 
+
+CLI: 9, 9, -1, Generator Time: 1462 microseconds, Unique Time: 333192 microseconds, Solver Time: 27591 microseconds
+Board: ...6....732.........6..7.8.....182.91......6...32.........6.4...9.84..1.......69. 
+
+CLI: 9, 9, -1, Generator Time: 1524 microseconds, Unique Time: 33210 microseconds, Solver Time: 2516 microseconds
+Board: 6...4.9..74....65...9...78.13.4.....8.7.5.......189.6........2...2.38......9..8.. 
+
+CLI: 9, 9, -1, Generator Time: 1853 microseconds, Unique Time: 77966 microseconds, Solver Time: 7224 microseconds
+Board: .2.........1.46....5.318.2...48.......853..9...6.....39.......6......135..5...... 
+
+CLI: 9, 9, -1, Generator Time: 1620 microseconds, Unique Time: 434300 microseconds, Solver Time: 17916 microseconds
+Board: .69.....3...7....92...4....6......5..2.5.7...7.5...8....3.9...69..8.2...8.....4.. 
+
+CLI: 9, 9, -1, Generator Time: 1980 microseconds, Unique Time: 22128 microseconds, Solver Time: 2276 microseconds
+Board: ....378..83...1.6...2..841...96....1.6.12...55......7..1......83..9..........2... 
+
